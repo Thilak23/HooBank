@@ -1,0 +1,27 @@
+.image{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 60px;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.airbnb{
+  height: 50px;
+}
+.binance{
+  height: 40px;
+}
+.coinbase{
+  height: 40px;
+}
+.dropbox{
+  height: 40px;
+}
+@media (max-width:520px){
+  .image{
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+  }
+}

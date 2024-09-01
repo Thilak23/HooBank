@@ -1,0 +1,103 @@
+.invoice{
+  display: flex;
+  margin-left: 60px;
+  margin-right: 60px;
+  color: white;
+  margin-top: 100px;
+  column-gap: 50px;
+}
+.billing-1{
+  flex: 1;
+}
+.bill-img{
+  height: 650px;
+  max-width: 100%;
+}
+.billing-2{
+  flex: 1;
+  margin-top: 150px;
+}
+.easy p{
+  font-size: 48px;
+  font-weight: 600;
+  width: 80%;
+  margin: 0;
+}
+.elite p{
+  font-size: 20px;
+  width: 80%;
+  color: #ffffffb3;
+}
+.apple-img{
+  margin-right: 15px;
+  cursor: pointer;
+}
+.playstore-img{
+  cursor: pointer;
+}
+/* Media Queries */
+@media (max-width: 1130px) {
+  .bill-img{
+    height: 600px;
+  }
+  .easy p{
+    font-size: 48px;
+    font-weight: 600;
+    width: 100%;
+    margin: 0;
+  }
+  .elite p{
+    font-size: 20px;
+    width: 100%;
+  }
+}
+@media (max-width:1000px){
+  .invoice{
+    flex-direction: column-reverse;
+    margin-top: 0;
+  }
+  .bill{
+    text-align: center;
+  }
+  .bill-img{
+    height: 600px;
+  }
+  .billing-2{
+    margin-top: 50px;
+  }
+}
+@media (max-width:600px){
+  .invoice{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .bill-img{
+    height: 400px;
+  }
+  .easy p{
+    font-size: 40px;
+    font-weight: 600;
+    width: 90%;
+    margin: 0;
+  }
+  .elite p{
+    font-size: 18px;
+    width: 80%;
+  }
+}
+@media (max-width:450px){
+  .easy p{
+    font-size: 40px;
+    font-weight: 600;
+    width: 100%;
+    margin: 0;
+  }
+  .bill-img{
+    height: 350px;
+    margin-left: 20px;
+  }
+  .elite p{
+    font-size: 18px;
+    width: 100%;
+  }
+}

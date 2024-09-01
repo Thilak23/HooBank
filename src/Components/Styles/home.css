@@ -1,0 +1,249 @@
+.main{
+  display: flex;
+  margin-top: 60px;
+}
+.main-1{
+  margin: 60px 0 60px 60px;
+  margin-top: 80px;
+  flex: 1;
+}
+.offer{
+  display: flex;
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  color: white;
+  padding: 2px 0 2px 5px;
+  align-items: center;
+  font-size: 18px;
+  border-radius: 10px;
+  font-family: "Poppins", sans-serif;
+  width: 360px;
+}
+.offer-1{
+  padding-left: 5px;
+  margin: 0;
+}
+.next{
+  line-height: 60px;
+  position: relative;
+}
+.next-1,.next-2{
+  font-size: 70px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 600;
+}
+.next-2{
+  display: inline;
+  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #def9fa .89%, #bef3f5 17.23%, #9dedf0 42.04%, #7de7eb 55.12%, #5ce1e6 71.54%, #33bbcf 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.box{
+  display: inline;
+  position: absolute;
+  top: 5px;
+  right: 0;
+  padding: 40px 20px 40px 20px;
+  border-radius: 100px;
+  opacity: 1;
+  background-color: rgb(0 4 15);
+  border: 2px solid skyblue;
+  cursor: pointer;
+}
+.but{
+  display: flex;
+  width: 90px;
+  text-align: start;
+  border: none;
+  font-size: 20px;
+  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #def9fa .89%, #bef3f5 17.23%, #9dedf0 42.04%, #7de7eb 55.12%, #5ce1e6 71.54%, #33bbcf 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+  position: relative;
+}
+.arrowout{
+  height: 30px;
+  width: 25px;
+  color: white;
+  position: absolute;
+  right: 23px;
+  bottom: 20px;
+}
+.next2{
+  line-height: 90px;
+}
+.next-3{
+  font-size: 70px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-weight: 600;
+  margin: 0;
+  margin-top: 15px;
+}
+.para{
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffffb3;
+  max-width: 65%;
+}
+.main-2{
+ flex: 1;
+ text-align: end;
+}
+.robo-hand{
+  height: 700px;
+}
+
+/* Media Queries */
+
+@media (max-width:1330px) {
+  /* .main-1{
+    margin-top: 50px;
+  } */
+  .robo-hand{
+    height: 700px;
+    width: 470px;
+  }
+  .para{
+    max-width: 80%;
+  }
+}
+@media (max-width:1230px) {
+  .main-1{
+    margin-top: 40px;
+  }
+  .next{
+    max-width: 100%;
+  }
+  .robo-hand{
+    height: 700px;
+    width: 450px;
+  }
+  .para{
+    max-width: 80%;
+  }
+}
+@media (max-width:1150px) {
+  .main-1{
+    margin-top: 30px;
+  }
+  .robo-hand{
+    height: 700px;
+  }
+  .para{
+    max-width: 80%;
+  }
+}
+@media (max-width:1070px) {
+  .main{
+    flex-direction: column;
+  }
+  .main-2{
+    text-align: end;
+  }
+  .robo-hand{
+    height: 800px;
+    width: 800px;
+  }
+  .box{
+    right: 30px;
+  }
+}
+@media (max-width:800px){
+  .main{
+    margin-top: 30px;
+  }
+  .main-1{
+    width: 90%;
+    margin-top: 20px;
+  }
+  .offer,.next,.next2{
+    max-width: 90%;
+  }
+  .next-1,.next-2,.next-3{
+    font-size: 64px;
+  }
+  .box{
+    right: 0;
+  }
+  .main-2{
+    width: 96%;
+    text-align: end;
+    justify-content: flex-end;
+    margin-left: 30px;
+  }
+  .robo-hand{
+    height: 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width:600px){
+  .main-1{
+    margin-top: 10px;
+  }
+  .next{
+    line-height: 40px;
+  }
+  .next-2{
+    line-height: 40px;
+  }
+  .next-1,.next-2,.next-3{
+    font-size: 58px;
+  }
+  .box{
+    display: none;
+  }
+  .main-2{
+    width: 95%;
+    text-align: end;
+    justify-content: flex-end;
+  }
+  .robo-hand{
+    height: 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width:560px){
+  .next{
+    line-height: 30px;
+  }
+  .next2{
+    line-height: 70px;
+  }
+  .next-1,.next-2,.next-3{
+    font-size: 50px;
+  }
+  .main-2{
+    width: 93%;
+  }
+}
+@media (max-width:480px){
+  .main-1{
+    margin-left: 30px;
+  }
+  .next,.next2{
+    line-height: 40px;
+  }
+  .next-1{
+    margin-bottom: 20px;
+  }
+  .next-3{
+    margin-top: 0;
+    line-height: 60px;
+  }
+  .next-1,.next-2,.next-3{
+    font-size: 42px;
+  }
+  .main-2{
+    width: 93%;
+  }
+}
+@media (max-width:425px){
+  .main-1{
+    margin-left: 30px;
+  }
+  .main-2{
+    width: 92%;
+  }
+}

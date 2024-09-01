@@ -1,0 +1,36 @@
+.copyright{
+  display: flex;
+  color: white;
+  margin: 10px 60px 30px 60px;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 25px;
+}
+.copy{
+  font-size: 18px;
+  color: #ffffffb3;
+}
+.rights{
+  color: #ffffff;
+  margin-right: 10px;
+}
+.social{
+  display: flex;
+  column-gap: 25px;
+  cursor: pointer;
+}
+
+/* Media Queries */
+
+@media (max-width:600px){
+  .copyright{
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-direction: column;
+  }
+}
+@media (max-width:375px){
+  .copy p{
+    font-size: 15px;
+  }
+}

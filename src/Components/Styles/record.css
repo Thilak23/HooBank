@@ -1,0 +1,108 @@
+.record{
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  column-gap: 20px;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.user{
+  display: flex;
+  align-items: center;
+}
+.user-1{
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.user-2{
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 10px;
+  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.trust{
+  display: flex;
+  align-items: center;
+}
+.trust-1{
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.trust-2{
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 10px;
+  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.trans{
+  display: flex;
+  align-items: center;
+}
+.trans-1{
+  font-size: 40px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.trans-2{
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  margin-left: 10px;
+  background: radial-gradient(64.18% 64.18% at 71.16% 35.69%, #DEF9FA 0.89%, #BEF3F5 17.23%, #9DEDF0 42.04%, #7DE7EB 55.12%, #5CE1E6 71.54%, #33BBCF 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@media (max-width:1045px){
+  .user-1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+  .user-2{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 10px;
+  }
+  
+  .trust-1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+  .trust-2{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 10px;
+  }
+  
+  .trans-1{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+  }
+  .trans-2{
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    margin-left: 10px;
+  }
+}
+@media (max-width:560px){
+  .record{
+    margin-left: 60px;
+    justify-content: flex-start;
+  }
+}
+@media (max-width:400px){
+  .record{
+    margin-left: 40px;
+    justify-content: flex-start;
+  }
+}
